@@ -1,0 +1,10 @@
+google-generativeai
+python-dotenv
+flask
+pdf2image
+markdown
+numpy
+pandas
+seaborn
+matplotlib
+scikit-learn

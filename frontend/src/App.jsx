@@ -1,13 +1,23 @@
+import React from 'react'
 import './App.css'
-import { Button } from './components/ui/button'
-
+import Dashboard from './Dashboard'
+import ResumeMtacher from './ResumeMatcher'
+import CurrentVacancies from './CurrentVacancies'
+import {Routes, Route} from 'react-router'
+Routes
 function App() {
 
   return (
     <>
-      <h1 className='text-5xl text-center p-16'>Hello World</h1>
-      <Button variant="outline">Button</Button>
-
+      {/* <Routes>
+        <Route path='/dashboard' element={<Dashboard/>}/>
+        {/* <Route path='/ResumeMatcher' element={<ResumeMtacher/>}/>
+        <Route path='/CurrentVacancies' element={<CurrentVacancies/>}/> */}
+      {/* </Routes> */} 
+      <Dashboard/>
+    <Routes>
+        
+    </Routes>
     </>
   )
 }

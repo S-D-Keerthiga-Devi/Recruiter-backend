@@ -117,5 +117,6 @@ export default function Dashboard() {
         <Menu size={24} />
       </button>
     </div>
+    // <h1>Hello from dashboard</h1>
   );
 }
