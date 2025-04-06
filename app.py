@@ -22,7 +22,8 @@ model = genai.GenerativeModel("gemini-1.5-pro-latest")
 app = Flask(__name__)
 # CORS(app)
 # CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
-CORS(app, origins=["http://localhost:5173"])
+# CORS(app, origins=["http://localhost:5173"])
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Resume analyser
 def get_gemini_resume(pdf_content, job_desc, prompt):
